@@ -1,0 +1,44 @@
+# Arendelle GNU Nano
+
+![](screen.png)
+
+Arendelle Support for [GNU Nano Editor](http://www.nano-editor.org/)
+
+### Installing
+Put `arendelle.nonorc` in `~/.nano/syntax` as:
+
+```
+% mv ./anrendelle.nanorc ~/.nono/syntax
+```
+
+edit the nano settings file:
+
+```
+% nano ~/.nanorc
+```
+
+And add the following line to it:
+
+```
+% include ~/.nano/syntax/arendelle.nanorc
+```
+
+### License
+```
+Arendelle Nano - Arendelle Support for GNU Nano Editor
+Copyright (c) 2015 Pouya Kary <k@arendelle.org>
+
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+```

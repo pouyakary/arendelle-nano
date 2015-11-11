@@ -1,0 +1,23 @@
+# Copyright 2015 Pouya Kary <k@arendelle.org>
+
+syntax "arendelle" "\.arendelle$"
+
+color brightblack "(\(|\,)(\\.|[^:])+:"
+
+color brightyellow "\[|\]|\(|\)|\,|\<|\>|\{|\}|\;"
+
+color magenta "\?"
+
+color brightblue "(\@|\#|\!|\$)[a-zA-Z\. 0-9]+"
+
+color brightblue "[0-9]+(\.[0-9]+)?"
+
+color green ""(\\.|[^"])*"|'(\\.|[^'])*'"
+
+color brightblack start="/\*" end="\*/"
+
+color brightblack "//.*"
+
+color brightblack "--.*"
+
+color brightblack start="\(\*" end="\*\)"
