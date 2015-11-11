@@ -1,4 +1,4 @@
-# Arendelle GNU Nano
+# Arendelle Nano
 
 ![](screen.png)
 
